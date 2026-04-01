@@ -3,9 +3,10 @@ const fs = require('fs')
 const path = require('path')
 const BLOG = require('./blog.config')
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: BLOG.BUNDLE_ANALYZER
-})
+let withBundleAnalyzer = (cfg) => cfg
+try {
+  withBundleAnalyzer = require('@next/bundle-analyzer')({ enabled: BLOG.BUNDLE_ANALYZER })
+} catch {}
 
 /**
  * 扫描指定目录下的文件夹名，用于获取当前有几个主题
