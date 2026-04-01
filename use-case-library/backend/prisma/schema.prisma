@@ -13,7 +13,7 @@ model User {
   password  String
   name      String
   company   String?
-  role      Role      @default(PARTNER)
+  role      String    @default("PARTNER")
   approved  Boolean   @default(false)
   createdAt DateTime  @default(now())
   useCases  UseCase[]
@@ -29,9 +29,4 @@ model UseCase {
   userId      Int
   uploadedBy  User     @relation(fields: [userId], references: [id])
   createdAt   DateTime @default(now())
-}
-
-enum Role {
-  ADMIN
-  PARTNER
 }
