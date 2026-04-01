@@ -45,4 +45,4 @@ yarn-error.log*
 # sitemap
 /public/robots.txt
 /public/sitemap.xml
-/public/rss/*
+/public/rss/*data/
