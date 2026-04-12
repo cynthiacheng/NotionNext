@@ -1,0 +1,11 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "NotionNext BLOG",
+    "home_page_url": "https://tangly1024.com/",
+    "description": "这是一个由NotionNext生成的站点",
+    "author": {
+        "name": "NotionNext",
+        "url": "https://tangly1024.com"
+    },
+    "items": []
+}

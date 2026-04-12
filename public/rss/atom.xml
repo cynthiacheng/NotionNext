@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id/>
+    <title>NotionNext BLOG</title>
+    <updated>2026-04-12T11:32:57.393Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>NotionNext</name>
+        <uri>https://tangly1024.com</uri>
+    </author>
+    <link rel="alternate" href="https://tangly1024.com/"/>
+    <subtitle>这是一个由NotionNext生成的站点</subtitle>
+    <icon>https://tangly1024.com/favicon.png</icon>
+    <rights>All rights reserved 2026, NotionNext</rights>
+</feed>

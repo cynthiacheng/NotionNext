@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>NotionNext BLOG</title>
+        <link>https://tangly1024.com/</link>
+        <description>这是一个由NotionNext生成的站点</description>
+        <lastBuildDate>Sun, 12 Apr 2026 11:32:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <copyright>All rights reserved 2026, NotionNext</copyright>
+    </channel>
+</rss>
